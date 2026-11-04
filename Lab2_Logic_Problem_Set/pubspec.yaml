@@ -1,0 +1,6 @@
+name: logic_problem_set
+description: Week 8 Logic Problem Set demonstrating conditionals, loops, functions, and try/catch.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'

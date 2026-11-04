@@ -1,0 +1,34 @@
+==================================================
+     ENHANCED TRANSIT FLEET DISPATCH SYSTEM       
+Student: Jay-Roween B. Bumatay | Section: 3.4BSIT
+==================================================
+GPS Update: Coordinates updated to [14.601, 121.0508]
+--------------------------------------------------
+[Jeepney Unit]
+Plate Number : JEEP-2026-01
+Assigned Route: Quiapo - Cubao
+Seating Cap  : 22 passengers
+Trip Distance: 6.5 km
+Computed Fare: PHP 19.25
+Broadcasting live GPS signal from coordinates: [14.601, 121.0508]
+--------------------------------------------------
+Interface fare check (Jeepney): PHP 19.25
+GPS Update: Coordinates updated to [15.4802, 120.5979]
+--------------------------------------------------
+[City Bus Unit]
+Plate Number : BUS-2026-99
+Assigned Route: Manila - Baguio
+Air-Con Unit : Yes (Deluxe)
+Trip Distance: 45.0 km
+Computed Fare: PHP 189.75
+Broadcasting live GPS signal from coordinates: [15.4802, 120.5979]
+--------------------------------------------------
+Interface fare check (Bus): PHP 189.75
+--------------------------------------------------
+[Transit Depot] Cubao Terminal | Dispatcher: Jay-Roween B. Bumatay
+GPS Update: Coordinates updated to [14.6176, 121.0569]
+Broadcasting live GPS signal from coordinates: [14.6176, 121.0569]
+--------------------------------------------------
+==================================================
+Enhanced OOP Dispatch Completed Successfully.
+==================================================

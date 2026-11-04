@@ -1,0 +1,42 @@
+==================================================
+     UNIVERSITY STUDENT MANAGEMENT SYSTEM         
+Student: Jay-Roween B. Bumatay | Section: 3.4BSIT
+==================================================
+--------------------------------------------------
+Student ID   : IT-2026-001
+Full Name    : Jay-Roween B. Bumatay
+Section      : 3.4BSIT
+GPA          : 1.25
+Dean's List  : Yes (Qualified)
+--------------------------------------------------
+--------------------------------------------------
+Student ID   : IT-2026-002
+Full Name    : Maria Santos
+Section      : 3.4BSIT
+GPA          : 2.00
+Dean's List  : No
+--------------------------------------------------
+--------------------------------------------------
+Student ID   : IT-2026-003
+Full Name    : Juan Dela Cruz
+Section      : 3.4BSIT
+GPA          : 1.00
+Dean's List  : Yes (Qualified)
+--------------------------------------------------
+
+Roster size: 3 | Lookup keys: IT-2026-001, IT-2026-002, IT-2026-003
+
+[Testing Setter Validation]
+Attempting to set invalid GPA (6.0) for Juan Dela Cruz...
+Error: Invalid GPA 6.0. Must be between 1.0 and 5.0.
+Setting valid GPA (1.50) for Juan Dela Cruz...
+--------------------------------------------------
+Student ID   : IT-2026-003
+Full Name    : Juan Dela Cruz
+Section      : 3.4BSIT
+GPA          : 1.50
+Dean's List  : Yes (Qualified)
+--------------------------------------------------
+==================================================
+Batch OOP Processing Complete. Zero errors.
+==================================================

@@ -1,0 +1,16 @@
+==================================================
+          CAMPUS CAFE ORDER SUMMARY               
+Student: Jay-Roween B. Bumatay | Section: 3.4BSIT
+==================================================
+Customer Name: Jay-Roween B. Bumatay
+VIP Status: true
+Quantity Ordered: 5 cups
+Unit Price: PHP 125.50
+--------------------------------------------------
+Gross Subtotal: PHP 627.50
+Loyalty Points Earned: 12 pts
+Leftover Items (Unpaired): 1
+--------------------------------------------------
+Qualifies for Bulk Discount (>= PHP 500): true
+Is Special VIP Customer: true
+==================================================

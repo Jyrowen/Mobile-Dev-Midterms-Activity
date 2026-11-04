@@ -1,0 +1,6 @@
+name: enhanced_oop
+description: Week 10 Enhanced OOP Program demonstrating inheritance, polymorphism, abstract classes, and mixins.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'

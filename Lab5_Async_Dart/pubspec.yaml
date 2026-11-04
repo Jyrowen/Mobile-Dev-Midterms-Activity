@@ -1,0 +1,6 @@
+name: async_dart
+description: Week 11 Asynchronous Programming Program demonstrating Futures, async, and await.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'

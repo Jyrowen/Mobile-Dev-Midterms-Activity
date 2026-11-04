@@ -1,0 +1,32 @@
+==================================================
+      METRO TRANSIT ASYNCHRONOUS DISPATCH HUB     
+Operator: Jay-Roween B. Bumatay | Section: 3.4BSIT
+==================================================
+
+--- Step 1: Sequential Telemetry Fetch ---
+Connecting to satellite grid for unit JEEP-2026-01...
+Telemetry Received: Unit JEEP-2026-01 is online and transmitting smoothly.
+Connecting to satellite grid for unit BUS-2026-99...
+Telemetry Received: Unit BUS-2026-99 is online and transmitting smoothly.
+
+--- Step 2: Concurrent Operations (Future.wait) ---
+Fetching multiple unit statuses simultaneously...
+Connecting to satellite grid for unit TAXI-101...
+Connecting to satellite grid for unit VAN-202...
+Connecting to satellite grid for unit TRUCK-303...
+  -> Telemetry Received: Unit TAXI-101 is online and transmitting smoothly.
+  -> Telemetry Received: Unit VAN-202 is online and transmitting smoothly.
+  -> Telemetry Received: Unit TRUCK-303 is online and transmitting smoothly.
+Concurrent batch completed in 2014ms.
+
+--- Step 3: Handling Asynchronous Errors (try / catch) ---
+Querying database for driver ID: DRV-999...
+Driver Schedule: Morning Shift (05:00 AM - 01:00 PM)
+Querying database for driver ID: DRV-404...
+Caught Expected Asynchronous Error: Exception: Database Timeout: Unable to retrieve schedule for driver DRV-404.
+Recovery Protocol: Assigned default fallback roster.
+
+==================================================
+Asynchronous Dispatch Hub Operations Completed.
+Operator Jay-Roween B. Bumatay (3.4BSIT) signed off.
+==================================================

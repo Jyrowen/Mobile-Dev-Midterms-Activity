@@ -1,0 +1,28 @@
+==================================================
+       STUDENT GRADE BATCH PROCESSOR              
+Student: Jay-Roween B. Bumatay | Section: 3.4BSIT
+==================================================
+
+[Record #1] Evaluating score: 95.5
+Status: Passed with Highest Honors
+
+[Record #2] Evaluating score: 82.0
+Status: Passed
+
+[Record #3] Evaluating score: 68.5
+Status: Failed - Needs Remediation
+
+[Record #4] Evaluating score: -15.0
+Caught Error: FormatException: Score must be between 0 and 100. Received: -15.0
+Resolution: Skipped invalid record safely.
+
+[Record #5] Evaluating score: 88.0
+Status: Passed
+
+==================================================
+               BATCH PROCESSING SUMMARY           
+==================================================
+Total Records Processed Successfully: 4
+Total Erroneous Records Handled:      1
+Batch Status: Complete (Zero crashes encountered)
+==================================================
