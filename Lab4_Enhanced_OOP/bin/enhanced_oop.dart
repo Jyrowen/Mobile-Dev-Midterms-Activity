@@ -70,6 +70,20 @@ class Bus extends Vehicle with GPSLocatable implements FareCalculator {
   Bus(String plateNumber, String route, this.isAirConditioned)
       : super(plateNumber, route);
 
+  Future<String> fetchTelemetry({
+    int delaySeconds = 2,
+    bool simulateError = false,
+  }) async {
+    print('Connecting to satellite grid for unit $plateNumber...');
+    await Future.delayed(Duration(seconds: delaySeconds));
+
+    if (simulateError) {
+      throw Exception('Telemetry request failed for unit $plateNumber.');
+    }
+
+    return 'Telemetry Received: Unit $plateNumber is online and transmitting smoothly.';
+  }
+
   @override
   double calculateFare(double distanceKm) {
     const double baseFare = 15.00;

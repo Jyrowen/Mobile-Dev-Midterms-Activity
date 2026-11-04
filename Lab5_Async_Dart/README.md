@@ -12,11 +12,11 @@ This console application simulates a **Real-time Transit Telemetry & API Dispatc
 ---
 
 ## Technical Implementation Highlights
-- **OOP Async Methods:** `TelemetryService` is a class whose methods return typed `Future<String>` and use `async`.
-- **Futures & Async/Await:** `fetchVehicleTelemetry` and `fetchDriverSchedule` simulate network latency using `Future.delayed` and are consumed with `await`.
+- **OOP Async Method:** Extends the Week 10 `Bus` class with `fetchTelemetry()`, which returns a typed `Future<String>`.
+- **Futures & Async/Await:** `Bus.fetchTelemetry()` simulates network latency using `Future.delayed` and is consumed with `await`.
 - **Non-Blocking Proof:** A status message is printed immediately before `await Future.delayed(...)`.
 - **Concurrent Execution:** Uses `Future.wait()` to batch multiple network requests concurrently, optimizing total execution time.
-- **Asynchronous Error Handling:** Catches and recovers from simulated network timeouts and exceptions safely without crashing the event loop.
+- **Asynchronous Error Handling:** Catches and recovers from a simulated telemetry failure without crashing the event loop.
 
 ---
 
